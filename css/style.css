@@ -2,4 +2,115 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    font-family: roboto;
+}
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/static/Roboto-Regular.ttf);
+}
+.container{
+    width: 1250px;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.FreeBtn{
+    margin-left: 30px;
+}
+nav a{
+    margin-left: 30px;
+    color: #1D2130;
+}
+.main{
+    background: url(../images/Blur\ Gradient.png) no-repeat center;
+    background-size: cover;
+    height: 600px;
+
+}
+.main-header{
+    text-align: center;
+    margin-top: 170px;
+}
+.main-text{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    width: 728px;
+    margin: auto;
+}
+.main-text2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 768px;
+    margin-inline: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main-email{
+    width: 576px;
+    height: 72px;
+    margin-left: 390px;
+    margin-top: 30px;
+}
+.main-form{
+    position: relative;
+}
+.main-email-text{
+    position: absolute;
+    top: 30px;
+    right: 385px;
+    background-color: black;
+    color: white;
+    width: 183px;
+    height: 70px;
+    text-align: center;
+    padding-top: 24px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.main-footer-background{
+    background: url(../images/Dashboard\ image.png) no-repeat center;
+    background-size: cover;
+    width: 1024px;
+    height: 666px;
+    margin-inline: auto;
+    margin-top: 60px;
+}
+.main-cart{
+    text-align: center;
+    margin-top: 100px;
+}
+.main-cart-navbar{
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #373FFF, #3ACAF8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 24px;
+    padding: 50px 0px 50px 0px;
+}
+.main-cart-text{
+    font-size: 48px;
+    font-weight: 700;
+    width: 576px;
+    margin: auto;
+    line-height: 57px;
+    padding-bottom: 80px;
+}
+.container2{
+    width: 1250px;
+    margin: auto;
+}
+.main-cart-create{
+    background-color: #E0E4FC;
+    width: 1250px;
+    height: 344px;
+    margin: auto;
 }
