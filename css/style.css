@@ -23,13 +23,18 @@
     margin-left: 3
 }
 nav a{
-    margin-left: 45px
+    margin-left: 45px;
+    color: #1D2130;
     
     
 }
 nav a:hover{
     border-bottom: 2px solid black;
-    width: 100%;;
+    width: 100%;
+}
+.active{
+    border-bottom: 2px solid black;
+    width: 100%;
 }
 .FreeBtn{
     border-radius: 12px;
